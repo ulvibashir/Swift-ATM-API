@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112723A0252EDEC3005F30FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127239F252EDEC3005F30FC /* AppDelegate.swift */; };
+		112723A2252EDEC3005F30FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112723A1252EDEC3005F30FC /* SceneDelegate.swift */; };
+		112723A4252EDEC3005F30FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112723A3252EDEC3005F30FC /* ViewController.swift */; };
+		112723A7252EDEC3005F30FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112723A5252EDEC3005F30FC /* Main.storyboard */; };
+		112723A9252EDEC4005F30FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112723A8252EDEC4005F30FC /* Assets.xcassets */; };
+		112723AC252EDEC4005F30FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112723AA252EDEC4005F30FC /* LaunchScreen.storyboard */; };
+		112723B6252EE130005F30FC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112723B5252EE130005F30FC /* API.swift */; };
+		112723BA252EE591005F30FC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112723B9252EE591005F30FC /* Model.swift */; };
+		112723BD252EEFB7005F30FC /* ATMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112723BC252EEFB7005F30FC /* ATMTableViewCell.swift */; };
+		113E20312534893500FD8AF6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113E20302534893500FD8AF6 /* ListViewController.swift */; };
+		113E20342534895000FD8AF6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113E20332534895000FD8AF6 /* MapViewController.swift */; };
+		1162336D25357DB900E1C409 /* NavBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162336C25357DB900E1C409 /* NavBarExtension.swift */; };
+		11623370253592FF00E1C409 /* LangugageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162336F253592FF00E1C409 /* LangugageViewController.swift */; };
+		116233732535996400E1C409 /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116233722535996400E1C409 /* LanguageTableViewCell.swift */; };
+		FC7A904E94E44385B13B0AE4 /* Pods_ATM_API_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6547FD3271E3EBC3BE9E3B /* Pods_ATM_API_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1127239C252EDEC3005F30FC /* ATM API Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATM API Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1127239F252EDEC3005F30FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		112723A1252EDEC3005F30FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		112723A3252EDEC3005F30FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		112723A6252EDEC3005F30FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		112723A8252EDEC4005F30FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112723AB252EDEC4005F30FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		112723AD252EDEC4005F30FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112723B5252EE130005F30FC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		112723B9252EE591005F30FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		112723BC252EEFB7005F30FC /* ATMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMTableViewCell.swift; sourceTree = "<group>"; };
+		113E20302534893500FD8AF6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		113E20332534895000FD8AF6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1162336C25357DB900E1C409 /* NavBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarExtension.swift; sourceTree = "<group>"; };
+		1162336F253592FF00E1C409 /* LangugageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangugageViewController.swift; sourceTree = "<group>"; };
+		116233722535996400E1C409 /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		4705E3E3C83AA601194A8BBD /* Pods-ATM API Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATM API Test.debug.xcconfig"; path = "Target Support Files/Pods-ATM API Test/Pods-ATM API Test.debug.xcconfig"; sourceTree = "<group>"; };
+		80B21EE3F6A1A69ABCB5C020 /* Pods-ATM API Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATM API Test.release.xcconfig"; path = "Target Support Files/Pods-ATM API Test/Pods-ATM API Test.release.xcconfig"; sourceTree = "<group>"; };
+		9A6547FD3271E3EBC3BE9E3B /* Pods_ATM_API_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATM_API_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11272399252EDEC3005F30FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7A904E94E44385B13B0AE4 /* Pods_ATM_API_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0759D711C07B42158A01A8FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4705E3E3C83AA601194A8BBD /* Pods-ATM API Test.debug.xcconfig */,
+				80B21EE3F6A1A69ABCB5C020 /* Pods-ATM API Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		11272393252EDEC3005F30FC = {
+			isa = PBXGroup;
+			children = (
+				1127239E252EDEC3005F30FC /* ATM API Test */,
+				1127239D252EDEC3005F30FC /* Products */,
+				0759D711C07B42158A01A8FD /* Pods */,
+				777E10186BAD3FD138E2174E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1127239D252EDEC3005F30FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1127239C252EDEC3005F30FC /* ATM API Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1127239E252EDEC3005F30FC /* ATM API Test */ = {
+			isa = PBXGroup;
+			children = (
+				1127239F252EDEC3005F30FC /* AppDelegate.swift */,
+				112723A1252EDEC3005F30FC /* SceneDelegate.swift */,
+				112723A3252EDEC3005F30FC /* ViewController.swift */,
+				112723A5252EDEC3005F30FC /* Main.storyboard */,
+				112723A8252EDEC4005F30FC /* Assets.xcassets */,
+				112723AA252EDEC4005F30FC /* LaunchScreen.storyboard */,
+				112723AD252EDEC4005F30FC /* Info.plist */,
+				112723B5252EE130005F30FC /* API.swift */,
+				112723B9252EE591005F30FC /* Model.swift */,
+				112723BC252EEFB7005F30FC /* ATMTableViewCell.swift */,
+				113E20302534893500FD8AF6 /* ListViewController.swift */,
+				113E20332534895000FD8AF6 /* MapViewController.swift */,
+				1162336C25357DB900E1C409 /* NavBarExtension.swift */,
+				1162336F253592FF00E1C409 /* LangugageViewController.swift */,
+				116233722535996400E1C409 /* LanguageTableViewCell.swift */,
+			);
+			path = "ATM API Test";
+			sourceTree = "<group>";
+		};
+		777E10186BAD3FD138E2174E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A6547FD3271E3EBC3BE9E3B /* Pods_ATM_API_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1127239B252EDEC3005F30FC /* ATM API Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112723B0252EDEC4005F30FC /* Build configuration list for PBXNativeTarget "ATM API Test" */;
+			buildPhases = (
+				5591CACF7C70216D7DA2BD6C /* [CP] Check Pods Manifest.lock */,
+				11272398252EDEC3005F30FC /* Sources */,
+				11272399252EDEC3005F30FC /* Frameworks */,
+				1127239A252EDEC3005F30FC /* Resources */,
+				DC22F1F8E9E70437D4FDCC33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATM API Test";
+			productName = "ATM API Test";
+			productReference = 1127239C252EDEC3005F30FC /* ATM API Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11272394252EDEC3005F30FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1127239B252EDEC3005F30FC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 11272397252EDEC3005F30FC /* Build configuration list for PBXProject "ATM API Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11272393252EDEC3005F30FC;
+			productRefGroup = 1127239D252EDEC3005F30FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1127239B252EDEC3005F30FC /* ATM API Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1127239A252EDEC3005F30FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112723AC252EDEC4005F30FC /* LaunchScreen.storyboard in Resources */,
+				112723A9252EDEC4005F30FC /* Assets.xcassets in Resources */,
+				112723A7252EDEC3005F30FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5591CACF7C70216D7DA2BD6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATM API Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC22F1F8E9E70437D4FDCC33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATM API Test/Pods-ATM API Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATM API Test/Pods-ATM API Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATM API Test/Pods-ATM API Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11272398252EDEC3005F30FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112723BA252EE591005F30FC /* Model.swift in Sources */,
+				112723A4252EDEC3005F30FC /* ViewController.swift in Sources */,
+				11623370253592FF00E1C409 /* LangugageViewController.swift in Sources */,
+				112723A0252EDEC3005F30FC /* AppDelegate.swift in Sources */,
+				112723B6252EE130005F30FC /* API.swift in Sources */,
+				112723BD252EEFB7005F30FC /* ATMTableViewCell.swift in Sources */,
+				112723A2252EDEC3005F30FC /* SceneDelegate.swift in Sources */,
+				116233732535996400E1C409 /* LanguageTableViewCell.swift in Sources */,
+				1162336D25357DB900E1C409 /* NavBarExtension.swift in Sources */,
+				113E20312534893500FD8AF6 /* ListViewController.swift in Sources */,
+				113E20342534895000FD8AF6 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		112723A5252EDEC3005F30FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112723A6252EDEC3005F30FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		112723AA252EDEC4005F30FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112723AB252EDEC4005F30FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112723AE252EDEC4005F30FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		112723AF252EDEC4005F30FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112723B1252EDEC4005F30FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4705E3E3C83AA601194A8BBD /* Pods-ATM API Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R957K55357;
+				INFOPLIST_FILE = "ATM API Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atm-app.ATM-API-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112723B2252EDEC4005F30FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B21EE3F6A1A69ABCB5C020 /* Pods-ATM API Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R957K55357;
+				INFOPLIST_FILE = "ATM API Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atm-app.ATM-API-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11272397252EDEC3005F30FC /* Build configuration list for PBXProject "ATM API Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112723AE252EDEC4005F30FC /* Debug */,
+				112723AF252EDEC4005F30FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112723B0252EDEC4005F30FC /* Build configuration list for PBXNativeTarget "ATM API Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112723B1252EDEC4005F30FC /* Debug */,
+				112723B2252EDEC4005F30FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11272394252EDEC3005F30FC /* Project object */;
+}

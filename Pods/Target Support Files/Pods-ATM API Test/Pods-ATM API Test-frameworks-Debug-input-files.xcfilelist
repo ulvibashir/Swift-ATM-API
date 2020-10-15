@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ATM API Test/Pods-ATM API Test-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework
